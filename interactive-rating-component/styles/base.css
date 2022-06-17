@@ -1,0 +1,54 @@
+:root {
+    /* COLORS */
+    --color-orange: hsl(25, 97%, 53%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey-light: hsl(217, 12%, 63%);
+    --color-grey-medium: hsl(216, 12%, 54%);
+    --color-blue-dark: hsl(215, 22%, 15%);
+    --color-blue-darker: hsl(213, 19%, 18%);
+    --color-blue-darkest: hsl(216, 12%, 8%);
+
+    /* TRANSITIONS */
+    --transition-fast: all 0.25s linear;
+
+    /* ELEMENTS */
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-blue-darkest);
+    font-family: 'Overpass', sans-serif;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.5;
+}
+
+p,legend {
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}

@@ -1,7 +1,7 @@
 async function fillDataInBarGraph() {
 
     // Fetch data and parse
-    const resp = await fetch("/data.json");
+    const resp = await fetch("./data.json");
     const expenses = await resp.json();
 
     // Find elements to set values in

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./scripts/script.js" defer></script>
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="full-page center">
+
+    <!-- Balance card starts -->
+
+    <article class="balance-card">
+
+      <!-- Header starts -->
+      <header class="balance-card__header">
+        <div class="balance-card__header__info">
+          <h1 class="balance-card__header__info__title">My balance</h1>
+          <h2 class="balance-card__header__info__balance">$921.48</h2>
+        </div>
+        <img src="./images/logo.svg" alt="Logo" class="balance-card__header__logo" />
+      </header>
+      <!-- Header ends -->
+
+      <!-- Chart section starts starts -->
+      <section class="balance-card__stats">
+        <h1 class="balance-card__stats__heading">Spending - Last 7 days</h1>
+
+        <figure class="balance-card__stats__graph-container">
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">mon</p>
+          </div>
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">tue</p>
+          </div>
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">wed</p>
+          </div>
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">thu</p>
+          </div>
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">fri</p>
+          </div>
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">sat</p>
+          </div>
+
+          <div class="balance-card__stats__graph-container__bar-container">
+            <div data-val="$0" class="balance-card__stats__graph-container__bar-container__bar"></div>
+            <p class="balance-card__stats__graph-container__bar-container__day">sun</p>
+          </div>
+
+        </figure>
+
+        <hr class="balance-card__stats__divider" />
+
+        <footer class="balance-card__stats__footer">
+
+          <figure class="balance-card__stats__footer__total-container">
+            <figcaption class="balance-card__stats__footer__total-container__heading">Total this month</figcaption>
+            <p class="balance-card__stats__footer__total-container__value">$478.33</p>
+          </figure>
+
+          <figure class="balance-card__stats__footer__compare-container">
+            <p class="balance-card__stats__footer__compare-container__value">+2.4%</p>
+            <figcaption class="balance-card__stats__footer__compare-container__heading">from last month</figcaption>
+          </figure>
+
+        </footer>
+
+      </section>
+
+      <!-- Chart section ends -->
+
+
+    </article>
+
+    <!-- Balance card ends -->
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://sohail-saha.in">Sohail Saha</a>.
+  </div>
+</body>
+
+</html>

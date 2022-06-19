@@ -1,0 +1,42 @@
+:root {
+    --color-orange: hsl(10, 79%, 65%);
+    --color-orange-light: hsl(10, 100%, 76%);
+    --color-cyan: hsl(186, 34%, 60%);
+    --color-cyan-light: hsl(187, 49%, 80%);
+    --color-brown-dark: hsl(25, 47%, 15%);
+    --color-brown: hsl(28, 10%, 53%);
+    --color-cream: hsl(27, 66%, 92%);
+    --color-white: hsl(33, 100%, 98%);
+}
+
+:root, html {
+    font-size: 18px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-cream);
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    line-height: 1.5;
+    margin: 0;
+}
+
+p {
+    line-height: 1.25;
+    margin: 0;
+}
+
+hr {
+    border: none;
+}
+
+figure {
+    margin: 0;
+}
